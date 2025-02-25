@@ -1,0 +1,225 @@
+/*            IMPORTING SECTIONS          */
+@import url(sections/hero.css);
+@import url(sections/about-us.css);
+@import url(sections/popular.css);
+@import url(sections/trending.css);
+@import url(sections/footer.css);
+/*
+                           ____VARIABLES____             */
+:root {
+  --normal-white: #ffffff;
+  --light-white: #e8f7fb;
+  --dark-black: #000000;
+  --normal-black: #070917;
+  --light-black: #023047;
+  --light-blue: #6f7dfb;
+  --normal-blue: #057ada;
+  --dark-blue: #023047;
+  --orange: #da722c;
+
+  --fs-exsm: 0.875rem;
+  --fs-sm: 1rem;
+  --fs-md: 1.125rem;
+  --fs-lg: 1.5rem;
+  --fs-h4: 1.875rem;
+  --fs-num: 2.25rem;
+  --fs-h3: 2.5rem;
+  --fs-h2: 3.125rem;
+  --fs-h1: 3.75rem;
+
+  --ff-poppins: "Poppins", serif;
+  --ff-raleway: "Raleway", serif;
+}
+
+/*        ____RESET PROPERTIES____        */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+  line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  text-decoration: none;
+  color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 0.75rem;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}
+/*        ____UTILITY CLASSES____        */
+.bg-normal-white {
+  background-color: var(--normal-white);
+}
+.bg-light-white {
+  background-color: var(--light-white);
+}
+.bg-dark-black {
+  background-color: var(--dark-black);
+}
+.bg-normal-black {
+  background-color: var(--normal-black);
+}
+.bg-light-black {
+  background-color: var(--light-black);
+}
+.bg-dark-blue {
+  background-color: var(--dark-blue);
+}
+.bg-normal-blue {
+  background-color: var(--normal-blue);
+}
+.bg-light-blue {
+  background-color: var(--light-blue);
+}
+.bg-orange {
+  background-color: var(--orange);
+}
+.fs-exsm {
+  font-size: var(--fs-exsm);
+}
+.fs-sm {
+  font-size: var(--fs-sm);
+}
+.fs-md {
+  font-size: var(--fs-md);
+}
+.fs-lg {
+  font-size: var(--fs-lg);
+}
+.fs-h4 {
+  font-size: var(--fs-h4);
+}
+.fs-h3 {
+  font-size: var(--fs-h3);
+}
+.fs-h2 {
+  font-size: var(--fs-h2);
+}
+.fs-h1 {
+  font-size: var(--fs-h1);
+}
+.fs-num {
+  font-size: var(--fs-num);
+}
+.ff-poppins {
+  font-family: var(--ff-poppins);
+}
+.ff-raleway {
+  font-family: var(--ff-raleway);
+}
+.bg-gradient {
+  background: linear-gradient(
+    var(--light-blue),
+    var(--normal-blue),
+    var(--dark-blue)
+  );
+}
+.text-white {
+  color: var(--normal-white);
+}
+.text-light-black {
+  color: var(--light-black);
+}
+.text-orange {
+  color: var(--orange);
+}
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+/*        ____STYLING BODY____        */
+.body {
+  min-width: 1366px;
+}

@@ -1,0 +1,77 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  overflow-x: clip;
+}
+.contact-us {
+  display: flex;
+  padding-left: 7.25rem;
+  padding-top: 4.375rem;
+  gap: 12.875rem;
+}
+.secondary-navigation {
+  display: grid;
+  grid-template:
+    "a a a" 40px
+    "b c c" 40px
+    "b c c" 40px / 15% 10% 45%;
+  column-gap: 132px;
+  padding-left: 8.6875rem;
+  padding-top: 0.875rem;
+}
+form {
+  position: relative;
+}
+form input {
+  min-width: 521px;
+  height: 39px;
+  border-radius: 0.5rem;
+}
+form button {
+  position: absolute;
+  padding-inline: 1.6875rem;
+  padding-block: 1px;
+  border-radius: 0.5rem;
+  right: 2rem;
+  top: 10.7px;
+  cursor: pointer;
+}
+#order-1 {
+  order: -1;
+}
+#order-2 {
+  order: -2;
+}
+#order-3 {
+  order: -3;
+}
+#order-4 {
+  order: -4;
+}
+#order-5 {
+  order: -5;
+  display: flex;
+  gap: 1.75rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+#order-6 {
+  order: -6;
+}
+#order-7 {
+  order: -7;
+}
+#order-8 {
+  order: -8;
+}
+#order-9 {
+  order: -9;
+}
+#order-10 {
+  order: -10;
+}
+.developer {
+  padding-left: 7.25rem;
+  margin-top: 2rem;
+  margin-bottom: 4.375rem;
+}

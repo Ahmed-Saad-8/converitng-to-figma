@@ -1,0 +1,56 @@
+/*____STYLING HEADER CLASS____ */
+.primary-header {
+  padding: 3rem 7.25rem 0 7.25rem;
+}
+.primary-navigation {
+  gap: 3.75rem;
+}
+.hero-section {
+  margin: 5.3125rem 4.9375rem 0 7.25rem;
+}
+
+.hero-paragraph {
+  margin-top: 2.0625rem;
+  flex-grow: 1;
+}
+.hero-paragraph > * {
+  margin-top: 1rem;
+}
+.hero-paragraph p {
+  line-height: 2rem;
+  text-wrap: balance;
+}
+.enrol-now-btn {
+  padding-block: 1rem;
+  padding-right: 2rem;
+  border-radius: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+.enrol-now-btn img {
+  padding-left: 2rem;
+  padding-right: 0.625rem;
+}
+
+.students-enrolled-btn {
+  transform: translateY(8.5625rem) translateX(-2.5rem);
+  text-wrap: nowrap;
+  padding-inline: 2.125rem;
+  padding-block: 0.4375rem;
+  border-radius: 1.5rem;
+  box-shadow: 0.5rem 0.5rem rgba(2, 48, 71, 0.3);
+}
+
+.overall-rating-btn {
+  transform: translateY(17.375rem) translateX(-4.5rem);
+  text-wrap: nowrap;
+  padding-inline: 2.125rem;
+  padding-block: 0.4375rem;
+  border-radius: 1.5rem;
+  box-shadow: 0.5rem 0.5rem rgba(2, 48, 71, 0.3);
+}
+.hero-image {
+  overflow-x: clip;
+  overflow-clip-margin: 4.9rem;
+  flex-grow: 1.5;
+}

@@ -1,0 +1,81 @@
+/*_______STYLING ABOUT-US SECTION_______*/
+.about-us {
+  margin-inline: 7.25rem;
+  margin-block: 6.25rem;
+  gap: 6.375rem;
+  align-items: center;
+}
+.about-us > * {
+  align-items: center;
+  justify-content: center;
+}
+.about-us-comments {
+  position: relative;
+  max-width: 29.635rem;
+  max-height: 34.125rem;
+}
+.rectangle {
+  position: absolute;
+  left: 25%;
+  z-index: -1;
+}
+.about-us-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+}
+.first-user-card {
+  max-width: 27.625rem;
+  max-height: 13.875rem;
+  margin-top: 2.1875rem;
+  background: var(--normal-white);
+  border-radius: 1.5rem;
+}
+.first-user-card p {
+  padding-block: 1.5rem;
+  padding-inline: 2rem;
+  line-height: 1.6875rem;
+  border-radius: 1.5rem;
+}
+.user-card {
+  align-items: center;
+  padding-inline: 2rem;
+}
+.user-card img {
+  transform: translateY(-1rem);
+}
+.user-card h3 {
+  font-weight: 300;
+  margin-top: 0.5em;
+}
+.about-us-paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 34.9375rem;
+  max-height: 23.5625rem;
+}
+.about-us-paragraph p {
+  margin-top: 1rem;
+  line-height: 2rem;
+}
+.about-us-paragraph button {
+  margin-top: 1.875rem;
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  border-radius: 1.5rem;
+}
+.second-user-card {
+  max-width: 27.625rem;
+  max-height: 13.875rem;
+  margin-top: 2.1875rem;
+  background: var(--normal-white);
+  border-radius: 1.5rem;
+  transform: translateX(2rem) translateY(-2.75rem);
+}
+.second-user-card p {
+  padding-block: 1.5rem;
+  padding-inline: 2rem;
+  line-height: 1.6875rem;
+  border-radius: 1.5rem;
+}
